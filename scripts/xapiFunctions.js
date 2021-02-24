@@ -1,5 +1,5 @@
 // **************************************************
-// Variablen initialisieren
+// Initialize variables
 // **************************************************
 
 var Http = new XMLHttpRequest();
@@ -202,7 +202,7 @@ var verbList = {
     }
 
 // **************************************************
-// xAPI-Statement vorbereiten
+// Prepare xAPI-statement
 // **************************************************
 
 var statement =  {
@@ -222,7 +222,7 @@ var statement =  {
 }
 
 // **************************************************
-// xAPI-Statement verschicken
+// Send xAPI-statement
 // **************************************************
 
 function sendStatement(xAPIverb, objectID) {
